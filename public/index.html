@@ -2,9 +2,18 @@
 <html>
   <head>
     <title>Hangry Village</title>
+    <style>
+      html {
+        min-width: 100vw;
+        min-height:100vh;
+      }
+    </style>
   </head>
   <body>
-    <script src="/socket.io/socket.io.js"></script>
-    <script src="/client.js"></script>
+    <div>
+      <canvas id="game-canvas"></canvas>
+    </div>
+    <script src="https://cdn.socket.io/4.7.2/socket.io.min.js"></script>
+    <script src="./client.js"></script>
   </body>
 </html>
